@@ -1,0 +1,357 @@
+
+/*Begin Main HTML*/
+html
+{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url("C:/Users/Me/Basic-Portfolio/assets/images/cheap_diagonal_fabric.png") ;
+}
+
+#container
+{	width:100%;
+    height: 100%;
+    
+}
+
+/*Top Title*/
+
+#header{
+	height: 100px;
+	width: 100%;
+	background-color: #ffffff;
+	overflow: hidden;
+	border-bottom: 3px solid;
+	border-bottom-color: #dddddd;
+
+}
+
+.name {
+	background-color: #4aaaa5;
+	position: relative;
+	width: 130px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	padding-right: 30px;
+	padding-left: 30px;
+	margin-top: 20px;
+	margin-left: 170px;
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 25px;
+	color: white;
+	border-radius: 10px;
+	float: left;
+	font-weight: bolder;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.nav{
+	float: right;
+	list-style: inline;
+	margin-top: 50px;
+	margin-right: 320px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	position: static;
+
+}
+
+.list{
+	float: right;
+	list-style: inline;
+	margin-right: 26px;
+	padding-right: 13px;
+	border-right: 2px solid;
+	border-color: #dddddd;
+}
+
+.list1{
+	float: right;
+	list-style: inline;
+	margin-right: 26px;
+	padding-right: 13px;
+	
+}
+
+.nav a {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	text-decoration:none;}
+
+.nav a:hover {
+    background-color: #dcdcdc;
+}
+
+/*Main Body Elements*/
+.content {
+	width: 650px;
+	height: 500px;
+	float: left;
+	margin-left: 170px;
+	margin-top: 80px;
+	background-color: #ffffff;
+	padding: 40px;
+	border-radius: 10px;
+	z-index: 1;
+	overflow: auto;
+	height: auto;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+/*Worked to make box fill to proper dimensions on own*/
+.hope {
+	height:auto;
+}
+
+/*Header of main content section*/
+.about {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 25px;
+	color: #ffffff;
+	border-radius: 10px;
+	float: left;
+	font-weight: bolder;
+	padding-bottom: 40px;
+	color: #4aaaa5;
+
+
+}
+/*Gimme some room*/
+.info{
+	clear: both;
+	border-top: 5px solid;
+	border-color: #dddddd;
+	padding-top: 40px;
+	overflow: auto;
+	height: auto;
+}
+
+/*Pic on About me page*/
+.barrister{
+	float:left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;g
+	height: auto;
+	overflow: auto;
+	border-radius: 10px;
+}
+
+/*info on about page*/
+.me{
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 210%;
+				 }
+/*Self-explanatory, but don't know if it works properly*/
+.sidebar{
+	width: 270px;
+	float: right;
+	margin-right: 350px;
+}
+
+.sidebar ul {
+	padding-top: 15px;
+	list-style: none;
+	text-align: center;
+}
+
+.sidebar li { 
+	display: inline-block;
+}
+
+.sidebar a { 
+	display: block;
+}
+
+.sidebar li a {;
+
+}
+
+.sidebar img {
+	height: 50px;
+	width: 50px;
+	padding: 15px;
+}
+
+
+.work{
+	width: 255px;
+	height: 200px;
+	margin-top: 80px;
+	margin-right: 350px;
+	padding: 20px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px #888888;
+	
+}
+
+.work h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 25px;
+	color: #ffffff;
+	border-radius: 10px;
+	font-weight: bolder;
+	padding-bottom: 25px;
+	text-align: center;
+	padding-top: 10px;
+	border-bottom: 5px solid;
+	border-color: #dddddd;
+	color: #4aaaa5;
+}
+
+/*Adds space above sticky footer*/
+.clear {
+	clear: both;
+	padding-top: 30px;}
+
+/*begin portfolio*/
+.port ul {
+	display: block;
+	float: left;
+	
+}
+
+.port li {
+	display: block;
+	margin-left: 70px;
+	margin-bottom: 40px;
+	position: relative;
+}
+
+.port img {
+	height: 200px;
+	width: 200px;
+	border-radius: 10px;
+}
+
+.port2 ul {
+	float: right;
+	padding-right: 30px;
+
+}
+
+.port2 li {
+	display: block;
+	margin-right: 60px;
+	position: relative;
+	padding-bottom: 50px;
+}
+
+.port2 img {
+	height: 200px;
+	width: 200px;
+	border-radius: 10px;
+}
+
+/*For the text box and words overlayed on the images*/
+.hangman {
+	position: absolute;
+	top: 135px;
+	text-align: center;
+	width:100%;
+	
+}
+
+.hangman h4 {
+	height: 55px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 17px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: lighter;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 55px;  
+
+
+}
+
+/*Begin Contact CSS*/
+.row label {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777; 
+}
+
+.row input {
+	padding: 5px;
+	margin-bottom: 8px;
+	border-radius: 5px;
+
+}
+
+textarea {
+	padding: 5px;
+	margin-bottom: 8px;
+	border-radius: 5px;
+}
+
+#submit_button {
+	margin-top: 8px;
+	padding: 20px;
+	border-radius: 10px;
+	width: 140px;
+	font-size: 15px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: white;
+	background-color: #4aaaa5;
+
+
+}
+
+/*Begin Sticky Footer CSS*/
+
+.wrapper {
+	min-height: 100%;
+	margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+}
+
+.push {
+	height: 155px; /* '.push' must be the same height as 'footer' */
+	clear: both;
+}
+
+.foot {
+	text-align: center;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 155px;  
+}
+
+#footer{
+	height:155px;
+	background-color: #666666;
+	border-top: 10px solid;
+	border-color: #4aaaa5;
+}
+
+/*Media Queries*/
+@media screen and (min-width: 980px) {
+	;}
+
+@media screen  and (max-width: 768px){
+	.content{ width: 30%;}
+	.nav {margin-right: 0px;}
+	.work {margin: 50% 50%;}
+ 
+}
+@media screen and (max-width: 640px) {.content{ width: 30%;}
+.nav {margin-right: 0px;
+		margin-left: -80px;}
+
+		.name {margin-left: 50px;}
+		.work {margin: 50% 50%;}
+}
+  
